@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>EcoTrip</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="" class="helpline-box">
+
+          <div class="">
+            
+          </div>
+
+          <div class="wrapper">
+
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="assets/imagenes/Logo-eco.png" alt="Tourly logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="" alt="">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#Destination" class="navbar-link" data-nav-link>Destination</a>
+            </li>
+
+            <li>
+              <a href="#Package" class="navbar-link" data-nav-link>Packages</a>
+            </li>
+
+            <li>
+              <a href="#Contact" class="navbar-link" data-nav-link>Contact us</a>
+            </li>
+            
+            
+              
+            
+            
+
+          </ul>
+
+
+
+        </nav>
+
+
+
+
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">go eco, stay real</h2>
+
+
+
+          <div class="btn-group">
+
+            <button class="btn btn-secondary">Book now</button>
+
+          </div>
+
+          <div class="Txt-arrow">
+
+            <p>Explore our destinations</p>
+            <a  href="#destination"  class="btn fa-solid fa-angle-down fa-bounce" style="color: #ffffff;"></a>
+
+
+          </div>
+
+
+
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Destination</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">People</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">search</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #POPULAR
+      -->
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <h2 class="h2 section-title">Popular destination</h2>
+          <p class="section-subtitle">Our most popular options</p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="assets/imagenes/arequipa-43285_1280.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Arequipa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                  <div class=" btn card-btn">
+                    <button class="btn btn-primary">More</button>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="assets/imagenes/body-of-water-3228741_1280.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">IQUITOS</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                  <div class=" btn card-btn">
+                    <button class="btn btn-primary">More</button>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="assets/imagenes/portals-machupicchu-2801407_1280.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Cusco</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                  <div class=" btn card-btn">
+                    <button class="btn btn-primary">More</button>
+                  </div>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+        
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-subtitle">Popular Packeges</p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="assets/imagenes/machu-picchu-4484205_1280.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Experience The Holidays On Machu Picchu</h3>
+
+                  <p class="card-text">
+                    It’s one of the most visited places in South America and a symbol of Peru’s history and culture.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">max: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Cusco</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $250
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="assets/imagenes/humantay-lake.webp" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Visit the wonderful Huamantay lagoon</h3>
+
+                  <p class="card-text">
+                    Humantay lagoon is a stunning turquoise lake in the Andes of Peru. It sits at the base of snowy mountains and is a popular spot for tourists. 
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">max: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Huaráz</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $120
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="assets/imagenes/vinicunca-2702788_1280.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Excursion to the mountain of seven colors</h3>
+
+                  <p class="card-text">
+                    The Mountain of Seven Colors, also known as Vinicunca or Rainbow Mountain, is a famous natural wonder near Cusco, Peru.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">max: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Cusco</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                   
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $260
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <p class="section-text">Ready to explore the world responsibly? 
+            Let us craft your perfect eco-friendly itinerary!</p>
+           <div class="btn">
+             <button class="btn btn-primary">REGISTER</button>
+             
+           </div>
+           <p class="section-text"> Already have an account?  <a href="#" class="" data-nav-link>Log in</a></p>
+          
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #REVIEW
+      -->
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <h2 class="h2 section-title">What Our Clients Say</h2>
+          <div class="testimonial-slider" id="testimonial-slider">
+            <div class="testimonial">
+              <img src="assets/imagenes/man-1690965_1280.jpg" alt="John Doe" class="testimonial-image">
+              <p class="testimonial-text">
+                "EcoTrip made my vacation unforgettable! The destinations were breathtaking, and the service was top-notch."
+              </p>
+              <h4 class="testimonial-author">- John Doe</h4>
+            </div>
+            <div class="testimonial">
+              <img src="assets/imagenes/girl.jpg" alt="Jane Smith" class="testimonial-image">
+              <p class="testimonial-text">
+                "I loved how EcoTrip focuses on sustainability. It feels great to travel responsibly!"
+              </p>
+              <h4 class="testimonial-author">- Jane Smith</h4>
+            </div>
+            <div class="testimonial">
+              <img src="assets/imagenes/girl.jpg" alt="Carlos Pérez" class="testimonial-image">
+              <p class="testimonial-text">
+                "The best travel experience I've ever had. Highly recommended for eco-conscious travelers."
+              </p>
+              <h4 class="testimonial-author">- Carlos Pérez</h4>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="prev-btn" id="prev-btn">&#10094;</button>
+            <button class="next-btn" id="next-btn">&#10095;</button>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- 
+        - #CONECT
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">JOIN THE CHANGE. PROMOTE YOUR SUSTAINABLE PACKAGES HERE</h2>
+
+            <p class="section-text">
+              Reach eco-conscious travelers and grow your agency by showcasing your sustainable travel packages on our platform
+            </p>
+          </div>
+
+          <section class="trabaja-con-nosotros" id="formulario">
+            <h2>WE WILL REVIEW YOUR PACKAGE</h2>
+            <form class="contact-form" action="https://formspree.io/f/xgvarodv"
+            method="POST">
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" placeholder="BUSINESS NAME">
+                    <input type="text" id="apellido" name="apellido" placeholder="RUC">
+                </div>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <textarea id="mensaje" name="mensaje" placeholder="WHRITE A MESAGE"></textarea>
+               
+                <button class="btn btn-primary">Contact Us !</button>
+            </form>
+            
+        </section>
+        
+          
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+ 
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="assets/imagenes/Logo-eco.png" alt="logo">
+          </a>
+
+          <p class="footer-text">
+            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
+            at
+            perferendis, pretium, aenean aut ultrices.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+51 123 456 789</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>direccion imaginaria</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="box">
+          <h2>FOLLOW US</h2>
+          <div class="red-social">
+              <a href="" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 <a href="">.</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="assets/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/8f42d6affa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

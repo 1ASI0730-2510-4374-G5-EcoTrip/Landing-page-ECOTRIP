@@ -357,7 +357,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("assets/imagenes/montañas_portada.jpg");
+  background-image: url("/assets/imagenes/montanas_portada.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
